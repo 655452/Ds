@@ -1,3 +1,4 @@
+# python -m Pyro4.naming
 import Pyro4
 
 Hotel = Pyro4.Proxy("PYRONAME:example.hotel")
